@@ -3,4 +3,14 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string-array name="item_titles">
+        <item>imei</item>
+        <item>provider</item>
+        <item>accuracy</item>
+        <item>time</item>
+    </string-array>
 </resources>

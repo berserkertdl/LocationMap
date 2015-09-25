@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text="123456789" />
+
+
+    <TextView
+        android:id="@+id/item_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_imei"
+        android:layout_alignLeft="@+id/item_imei"
+        android:text="LBS" />
+
+
+    <TextView
+        android:id="@+id/item_accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_provider"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/item_provider"
+        android:text="22" />
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:text="2015-9-25 10:38:39" />
+
+</RelativeLayout>
